@@ -24,8 +24,9 @@ services:
             net_local:
                 ipv4_address: 10.48.0.3
         ports: 
-            - "8888"
- 
+            - "8888"                                                                    |~                                                                                                        
+        depends_on:                                                                                      |~                                                                                                        
+            - mongodb 
 
 networks:
     net_local:
